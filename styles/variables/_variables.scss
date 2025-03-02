@@ -1,0 +1,23 @@
+// ----
+// Font
+// ----
+
+@font-face {
+  font-family: "figtree";
+  src: url(../../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+$mainfont: "figtree", sans-serif;
+
+// ------------------------------------------------------------
+
+// ------
+// Colors
+// ------
+
+$white: #fff;
+
+$grey-500: #6b6b6b;
+$grey-950: #121212;
+
+$yellow: #f4d04e;

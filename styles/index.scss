@@ -1,0 +1,12 @@
+//  import of defined variables and mixins to facilitate the implementation of different styles
+@import "./variables/variables";
+@import "./variables/mixins";
+
+// global styles
+@import "./general/general-settings";
+
+// Styles of card
+@import "./card/card";
+@import "./card/picture-card";
+@import "./card/informations";
+@import "./card/user";

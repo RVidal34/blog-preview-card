@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -13,6 +12,8 @@
     />
 
     <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
     <main class="card">
@@ -21,18 +22,26 @@
       </div>
 
       <div class="informations">
-        <span class="type">Learning</span>
+        <div class="type">
+          <p>Learning</p>
+        </div>
         <p class="date">Published 21 Dec 2023</p>
-        <h1>HTML & CSS foundations</h1>
-        <p>
+        <h1 id="title">HTML & CSS foundations</h1>
+        <p class="text">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
       </div>
 
       <div class="user">
-        <img src="./assets/images/image-avatar.webp" alt="avatar of user" />
-        <span class="username">Greg Hooper</span>
+        <div class="user_container">
+          <img
+            id="avatar"
+            src="./assets/images/image-avatar.webp"
+            alt="avatar of user"
+          />
+          <p class="username">Greg Hooper</p>
+        </div>
       </div>
     </main>
 

@@ -1,0 +1,31 @@
+.informations {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 336px;
+
+    .type {
+        @include centerChilds;
+        width: 70px;
+        padding: 4px 12px;
+        background: $yellow;
+
+        p {
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 150%;
+        }
+    }
+
+    #title{
+        font-size: 1.5rem;
+        font-weight: 800;
+        line-height: 150%;
+    }
+
+    .text {
+        color: $grey-500;
+        font-weight: 500;
+        line-height: 150%;
+    }
+}
